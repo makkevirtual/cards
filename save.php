@@ -9,7 +9,6 @@ VALUES('" . $_POST['name'] .
  "','" . $_POST['street_address'] . "','" . $_POST['zip'] . "','" .
 $_POST['city'] . "','" . $_POST['state'] . "','" .
 $_POST['country'] ."');";
- // print $sql;
  $result = mysqli_query($conn, $sql);
  print("Save completed.");
 print("</html>");
